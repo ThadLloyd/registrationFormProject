@@ -46,12 +46,45 @@
 
 			<div class='signup-button' id='signup-button'>
 
-				<input type='button' id='s-u-btn' value='Sign Up'>
+				<button id='s-u-btn'>Sign Up</button>
 				
 			</div>
 
 		</div>
-
+		
 		</div>
+
+		<div class='popup-content-container' id='popup-container'>
+			<div class='popup-content'>
+
+				<h1 id='popup-head'>Sign Up</h1>
+				<p id='popup-subhead'>Time to get Started with the Blog<p>
+				<div class='break-container'>
+					<hr>
+				</div>
+				<div class='create-acc-inputs' id='inputs'>
+					<div class='first-and-last' id='first-and-last'>
+						<input type='text' id='fname' placeholder='First Name'>
+						<input type='text' id='lname' placeholder='Last Name'>
+					</div>
+					<div class='email-num' id='email-num'>
+						<input type='text' id='em-num' placeholder='Mobile Number or Email'>
+					</div>
+					<div class='pass' id='pass'>
+						<input type='password' id='popup-pwd' placeholder='New Password' minlength='3' maxlength='12'>
+					</div>
+					<div class='birthdate' id='bday'>
+						<input type='date' id='b-day'>
+					</div>
+				</div>
+				<div class='popup-btn-container' id='create-acc-container'>
+					<button id='create-account'>Create Account</button>
+				</div>
+				<div class='popup-btn-container'>
+					<input type='button' id='cancel-close' value='cancel'>
+				</div>
+			</div>
+		</div>
+		<script src='main.js'></script>
 	</body>
 </html>

@@ -136,3 +136,154 @@ hr {
 	background-color: rgb(205, 206, 216);
 }
 
+.popup-content-container {
+	position: fixed;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: rgba(0, 0, 0, 0.4);
+	display: none;
+}
+
+.popup-content {
+	background-color: rgb(255, 255, 255);
+	margin: 10% auto;
+	padding: 20px;
+	border-radius: 8px;
+	border: 1px solid #888888;
+	width: 30%;
+	font-weight: bolder;
+}
+
+#create-account
+#cancel-close {
+	display: block;
+	margin: 0 auto;
+}
+
+.first-and-last {
+	padding-top: 10px;
+	text-align: center;
+}
+
+#fname {
+	padding-left: 10px;
+	font-family: 'Sans';
+	font-size: 16px;
+	height: 45px;
+	width: 45%;
+	margin: auto;
+	background-color: rgb(235, 236, 245);
+	border: 5px;
+	border-color: rgb(135, 136, 145);
+	border-radius: 8px;
+	color: rgb(135, 136, 145);
+}
+
+#lname {
+	padding-left: 10px;
+	font-family: 'Sans';
+	font-size: 16px;
+	height: 45px;
+	width: 45%;
+	margin: auto;
+	background-color: rgb(235, 236, 245);
+	border: 5px;
+	border-color: rgb(135, 136, 145);
+	border-radius: 8px;
+	color: rgb(135, 136, 145);
+}
+
+.email-num {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-align: center;
+}
+
+.pass {
+	padding-bottom: 5px;
+	text-align: center;
+}
+
+#em-num {
+	width: 93%;
+	margin: auto;
+	height: 45px;
+	background-color: rgb(235, 236, 245);
+	color: rgb(135, 136, 145);
+	border: 5px;
+	border-color: rgb(135, 136, 145);
+	border-radius: 8px;
+	font-family: 'Sans';
+	font-size: 16px;
+	padding-left: 10px;
+}
+
+#popup-pwd {
+	width: 93%;
+	margin: auto;
+	height: 45px;
+	background-color: rgb(235, 236, 245);
+	color: rgb(135, 136, 145);
+	border: 5px;
+	border-color: rgb(135, 136, 145);
+	border-radius: 8px;
+	font-family: 'Sans';
+	font-size: 16px;
+	padding-left: 10px;
+}
+
+.popup-btn-container {
+	text-align: center;
+	padding-bottom: 5px;
+}
+
+#create-account {
+	width: 30%;
+	height: 45px;
+	background-color: rgb(5, 145, 5);
+	color: rgb(255, 255, 255);
+	font-family: 'Sans';
+	font-weight: bold;
+	font-size: 16px;
+	border: none;
+	border-radius: 8px;
+}
+
+#create-account:hover {
+	background-color: rgb(25, 165, 25);
+}
+
+#create-acc-container {
+	padding-top: 25px;
+}
+
+#cancel-close {
+	background-color: white;
+	font-size: 16px;
+	color: rgb(155, 1, 1);
+	font-family: 'Sans';
+	border: none;
+}
+
+#cancel-close:hover {
+	background-color: rgb(155, 1, 1);
+	color: rgb(255, 255, 255);
+	border-radius: 4px;
+	font-weight: bold;
+}
+
+#bday {
+	text-align: center;
+}
+
+#b-day {
+	border: none;
+	font-size: 16px;
+	font-family: 'Sans';
+	color: rgb(135, 136, 145);
+}
+
